@@ -1,0 +1,16 @@
+<html>
+<head>
+  <script>
+    function changeImage() {
+      document.getElementById("image").src = "bird.jpeg";
+      document.getElementById("text").innerHTML = "sheep";
+    }
+  </script>
+</head>
+<body>
+  <div onmouseover="changeImage()">
+    <img id="image" src="image.jpeg">
+    <p id="text">tiger</p>
+  </div>
+</body>
+</html>
