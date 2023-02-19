@@ -25,7 +25,7 @@ if($result){
 echo'<script>alert("succesfully inserted")</script>';
 }
 else{
-echo'<script>alert("unsuccesfully inserted")</script>';
+echo'<script>alert("unsuccesfull")</script>';
 }
 }
 ?>
